@@ -1,0 +1,49 @@
+body {
+  background-color: hsl(233, 47%, 7%);
+  color: hsla(0, 0%, 100%, 0.6);
+  font-family: 'Inter', sans-serif;
+}
+
+.card {
+  margin-top: 50px;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 10px;
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.card-text {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.card-img {
+  width: 300 px;
+  height: 300 px;
+}
+
+.number {
+  width: 200px;
+  display: inline-block;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.number > p {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-weight: normal;
+}
